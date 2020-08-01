@@ -7,7 +7,7 @@ export class TagPreview extends React.Component {
     return React.createElement('ul', {},
       this.props.value.map(function(value, index) {
         return React.createElement('li', {
-          className: TagStyles.tag,
+          className: TagStyles.tag + " " + TagStyles.tag_overlay,
           key: index
         }, value)
       })
