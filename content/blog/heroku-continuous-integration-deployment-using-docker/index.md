@@ -5,6 +5,9 @@ description: Heroku Continuous Integration & Deployment using Docker
 categories:
   - Heroku
   - Docker
+tags:
+  - Heroku
+  - Docker
 ---
 ## Introduction
 `Heroku` is a Cloud Platform as a Service (PaaS) that makes it easy for developers to build, deploy, monitor, and scale their applications directly from their command line. Heroku’s flexibility allows developers to write applications in a variety of languages like Python, PHP, Node, Go, and many more. It’s available for free with some limitations and explicitly supports student developers. With great documentation, it’s a perfect platform to learn new technologies, architectural patterns, microservices, and automating deployment strategies.
