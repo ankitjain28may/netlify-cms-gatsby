@@ -4,10 +4,12 @@ import TagStyles from "./style.module.css"
 
 export class TagPreview extends React.Component {
   render() {
-    return React.createElement('ul', {},
+    return React.createElement('ul', {
+      className: TagStyles.tags,
+    },
       this.props.value.map(function(value, index) {
         return React.createElement('li', {
-          className: TagStyles.tag + " " + TagStyles.tag_overlay,
+          className: TagStyles.tag,
           key: index
         }, value)
       })

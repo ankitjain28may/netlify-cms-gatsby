@@ -1,61 +1,41 @@
-.tag_overlay {
-  font: 12px/1.5 'PT Sans', serif;
-  margin: 25px;
+ul.tags {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
 }
-  
 .tags {
-  list-style: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
+list-style: none;
+padding-left: 0;
+display: inline-block;
 }
 
 .tags li {
-  float: left;
+padding: 0;
+margin: 0;
+display: inline-block;
 }
 
-.tag {
-  background: #eee;
-  border-radius: 3px 0 0 3px;
-  color: #999;
+.tags .tag {
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,.6);
+  border-radius: 3px;
+  padding: 5px 10px;
   display: inline-block;
-  height: 26px;
-  line-height: 26px;
-  padding: 0 20px 0 23px;
-  position: relative;
   margin: 0 10px 10px 0;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-}
-
-.tag::before {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
-  content: '';
-  height: 6px;
-  left: 10px;
-  position: absolute;
-  width: 6px;
-  top: 10px;
-}
-
-.tag::after {
-  background: #fff;
-  border-bottom: 13px solid transparent;
-  border-left: 10px solid #eee;
-  border-top: 13px solid transparent;
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .tag:hover {
+  transition: all 0.2s;
   background-color: crimson;
   color: white;
 }
 
 .tag:hover::after {
-    border-left-color: crimson;
+  border-left-color: crimson;
+}
+
+.tags a {
+ text-decoration: none;
 }
