@@ -7,7 +7,7 @@ categories:
   - Docker
 ---
 ## Introduction
-Heroku is a Cloud Platform as a Service (PaaS) that makes it easy for developers to build, deploy, monitor, and scale their applications directly from their command line. Heroku’s flexibility allows developers to write applications in a variety of languages like Python, PHP, Node, Go, and many more. It’s available for free with some limitations and explicitly supports student developers. With great documentation, it’s a perfect platform to learn new technologies, architectural patterns, microservices, and automating deployment strategies.
+`Heroku` is a Cloud Platform as a Service (PaaS) that makes it easy for developers to build, deploy, monitor, and scale their applications directly from their command line. Heroku’s flexibility allows developers to write applications in a variety of languages like Python, PHP, Node, Go, and many more. It’s available for free with some limitations and explicitly supports student developers. With great documentation, it’s a perfect platform to learn new technologies, architectural patterns, microservices, and automating deployment strategies.
 
 Containerization allows developers to create and deploy applications faster with a wide range of other benefits like increased security, efficiency, agility to integrate with DevOps pipelines, portability, and scalability. Hence, companies and organizations are largely adopting this technology and it’s resulting in benefits for developers and removing overhead for the operations team in the software development lifecycle.
 
